@@ -1223,7 +1223,7 @@ footer p {
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 360px){
     
     .analytics {
         margin-top:10vh;
