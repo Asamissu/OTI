@@ -923,7 +923,7 @@ footer p {
 
     .projects > aside > div > div {
         width: 85%;
-        height: 30vh; 
+        height: 30%; 
         padding-bottom: 2vh;
     }
 
@@ -1156,10 +1156,14 @@ footer p {
     }
 
     .projects > article > #listNama {
-        margin-top: -2vh;
-        font-size: 1.8vh;
-        height: 11vh;
+        margin-top: -1vh;
+        font-size: 1.4vh;
+        height: 8vh;
         overflow-y: hidden;
+    }
+
+    .collapse {
+        height: 18vh !important;
     }
 
     .projects > article > ul > li {
@@ -1181,17 +1185,17 @@ footer p {
 
     .projects > aside > #winnings {
         margin-top: 5vh;
-        height: 40%;
+        height: 54%;
         width: 100%;
         overflow-x: scroll;
         display: flex;
         flex-wrap: wrap;
-        gap: 5vh;
+        gap: -5vh;
     }
 
     .projects > aside > div > div {
         width: 60%;
-        height:60%; 
+        height:30%; 
         padding-bottom: 2vh;
     }
 
@@ -1202,4 +1206,10 @@ footer p {
         margin-top: 8%;
         
     }
+
+    .callback{
+        margin-top: 25vh;
+    }
+
+    
 }
